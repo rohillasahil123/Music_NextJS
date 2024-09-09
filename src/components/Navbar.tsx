@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar_menu";
+import { HoveredLink, Menu, MenuItem} from "./ui/navbar_menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ export function Navbar({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "fixed  top-10 inset-x-0 max-w-2xl mx-auto z-50",
+        "fixed  top-10 inset-x-0 max-w-2xl mx-auto z-50 cursor-pointer",
         className
       )}
     >
