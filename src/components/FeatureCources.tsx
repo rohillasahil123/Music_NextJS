@@ -4,19 +4,19 @@ import courseData from "../data/dataFile.json"
 
 const FeatureCources = () => {
 
-        // init  value on type Script //
+    // init  value on type Script //
     interface Course{
-        "id": Number,
-        "title": String,
-        "slug":String,
-        "description": String,
-        "price": Number,
-        "instructor": String,
-        "isFeatured": Boolean,
+        id: number,
+        title: string,
+        slug:string,
+        description: string,
+        price: number,
+        instructor: string,
+        isFeatured: boolean
     }
 
     function FeaturedData (){
-      const AllData = courseData.courses.filter((courses:Course) => courses.isFeatured)        
+      const featurecourses:Course[] = courseData.courses.filter((courses:Course) => courses.isFeatured === true)        
     }
 
 
@@ -28,7 +28,11 @@ const FeatureCources = () => {
             </div>
         <div className="mt-10">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
-            
+            {
+            //    featurecourses.map((courses:Course)=>(
+
+            //    ))
+            }
             </div>
         </div>
         <div className="text-center mt-20 "> 
