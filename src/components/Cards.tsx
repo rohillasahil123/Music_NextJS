@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 export function Cards() {
   return (
-    <div className="h-[40rem] w-full  rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.3] items-center justify-center relative overflow-hidden">
+    <div className="h-[40rem] w-full  rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.3] items-center justify-center relative overflow-hidden ">
       <h2 className="font-bold text-4xl z-10 mb-11">
         Hear our harmony : voices of success{" "}
       </h2>

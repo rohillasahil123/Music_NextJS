@@ -1,5 +1,6 @@
 import { Cards } from "@/components/Cards";
 import FeatureCources from "@/components/FeatureCources";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import { WhyChooseYou } from "@/components/WhyChooseYou";
 
@@ -10,7 +11,7 @@ export default function Home() {
       <FeatureCources/>
       <WhyChooseYou/>
       <Cards/>
-      
+      <Footer/>
     </main>
   );
 }
